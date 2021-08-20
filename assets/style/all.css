@@ -78,9 +78,13 @@ a {
   padding: 30px 88px; }
 
 .logo {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/logo.png?raw=true);
   width: 80px;
   height: 48px;
-  display: block; }
+  background-repeat: no-repeat;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden; }
 
 .Nav_option {
   display: -webkit-box;
@@ -98,10 +102,13 @@ a {
     line-height: 30px; }
 
 .footer {
+  margin-top: 160px;
   background-color: #AA0601;
   padding-top: 32px;
   padding-bottom: 39px; }
-  .footer a, .footer p, .footer span {
+  .footer a,
+  .footer p,
+  .footer span {
     color: #FFFFFF; }
 
 .footer-container {
@@ -151,6 +158,7 @@ a {
     width: 36px;
     height: 36px;
     margin-right: 22px;
+    margin-bottom: 10px;
     vertical-align: middle; }
 
 .legality {
@@ -171,5 +179,107 @@ a {
   .legality p {
     font-size: 16px;
     line-height: 24px; }
+
+.faq-container {
+  padding-top: 96px;
+  width: 1160px;
+  margin: 0 auto; }
+
+.faq-sub-header {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bold;
+  padding-left: 16px;
+  border-left: 8px solid #9F1213; }
+
+.question-section h3 {
+  margin-top: 60px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 63px; }
+
+.question-section li h4 {
+  margin-top: 32px;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: bold; }
+
+.question-section li p {
+  width: 920px;
+  height: 72px;
+  margin-top: 16px;
+  padding-left: 96px;
+  line-height: 24px; }
+
+.location-container {
+  padding-top: 96px;
+  width: 1160px;
+  margin: 0 auto; }
+
+.locator-sub-header {
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: bold;
+  border-left: 8px solid #9F1213;
+  padding-left: 16px;
+  margin-bottom: 60px; }
+
+.location-selector label {
+  font-size: 24px;
+  line-height: 30px;
+  margin-right: 22px; }
+
+.location-selector select {
+  width: 324px;
+  height: 45px;
+  font-size: 18px;
+  line-height: 26;
+  color: grey;
+  border: lightgray 1px solid;
+  margin-bottom: 32px; }
+
+.content-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.store-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 30px; }
+
+.store-info h3 {
+  font-size: 24px;
+  line-height: 36px;
+  padding: 8px 0 8px 24px;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray; }
+
+.store-info-detail {
+  padding: 8px 0 8px 24px;
+  border: 1px solid lightgray; }
+
+.store-info-detail li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 8px; }
+
+.store-info-detail img {
+  width: 21px;
+  height: 20px;
+  margin-right: 11px; }
+
+.store-info-detail a {
+  font-size: 20px;
+  line-height: 30px; }
 
 /*# sourceMappingURL=all.css.map */
